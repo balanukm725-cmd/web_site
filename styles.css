@@ -917,3 +917,22 @@ details[open] summary::after {
     transition:none!important;
   }
 }
+
+.hero-art > img {
+  aspect-ratio: 760 / 880;
+  object-fit: cover;
+  object-position: 50% 70%;
+}
+.card-image img {
+  aspect-ratio: 14 / 11;
+  object-fit: cover;
+}
+.art-caption {
+  background: rgb(245 241 232 / 85%);
+  padding: 5px 9px;
+  border-radius: var(--radius);
+}
+.footer p a {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
