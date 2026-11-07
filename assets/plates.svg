@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="440" viewBox="0 0 560 440"><defs>
+<linearGradient id="bg" x2=".9" y2="1"><stop stop-color="#e6cfb5"/><stop offset="1" stop-color="#bd9476"/></linearGradient>
+<linearGradient id="terracotta"><stop stop-color="#7c3f2b"/><stop offset=".28" stop-color="#b96f4a"/><stop offset=".65" stop-color="#cf8b61"/><stop offset="1" stop-color="#90513a"/></linearGradient>
+<linearGradient id="cream"><stop stop-color="#b7ab8c"/><stop offset=".25" stop-color="#e3d9bd"/><stop offset=".65" stop-color="#f1e6cd"/><stop offset="1" stop-color="#b5a68b"/></linearGradient>
+<radialGradient id="green"><stop stop-color="#a4a78b"/><stop offset=".72" stop-color="#71785c"/><stop offset=".86" stop-color="#bdbea0"/><stop offset=".94" stop-color="#8a9171"/><stop offset="1" stop-color="#566347"/></radialGradient>
+<radialGradient id="shade"><stop stop-color="#46372b" stop-opacity=".34"/><stop offset="1" stop-color="#46372b" stop-opacity="0"/></radialGradient>
+<filter id="texture"><feTurbulence type="fractalNoise" baseFrequency=".65" numOctaves="3" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/><feComponentTransfer><feFuncA type="linear" slope=".12"/></feComponentTransfer><feBlend in="SourceGraphic" mode="multiply"/></filter>
+</defs><rect width="560" height="440" fill="#c9cbbb"/><path d="M0 0h135l425 385v55H412Z" fill="#f0efdf" opacity=".2"/><ellipse cx="271" cy="302" rx="214" ry="80" fill="url(#shade)"/>
+<g filter="url(#texture)"><ellipse cx="248" cy="252" rx="172" ry="106" fill="#596146"/><ellipse cx="248" cy="240" rx="172" ry="107" fill="url(#green)"/><ellipse cx="248" cy="239" rx="133" ry="77" fill="none" stroke="#b4b69a" stroke-opacity=".4" stroke-width="2"/>
+<ellipse cx="365" cy="300" rx="121" ry="77" fill="#62684d"/><ellipse cx="365" cy="290" rx="121" ry="77" fill="url(#green)"/><ellipse cx="365" cy="289" rx="92" ry="55" fill="none" stroke="#c4c6a5" stroke-opacity=".5" stroke-width="2"/></g>
+<path d="m101 100 44 42m-26-44 40 40m-18-39 34 33" stroke="#687452" fill="none" stroke-width="5" stroke-linecap="round"/><path d="M145 143 210 208" stroke="#7a745b" stroke-width="6" stroke-linecap="round"/></svg>
